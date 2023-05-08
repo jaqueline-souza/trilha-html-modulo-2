@@ -11,28 +11,40 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(254, 254, 254);
 }
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    width: 45%;
+    background-color: rgb(86, 176, 245);
     padding: 10px 20px 0px;
+    
+
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(86, 176, 245);
+    min-height: 400px;
+    max-width: 1600px;    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #f1f1f1; ;
 }
 .content {
     background-color: white;
-    min-height: 300px;
-    padding: 20px;
+    min-height: 400px;
+    padding: 40px;
+    
+
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(86, 176, 245);
     min-height: 150px;
+    max-width: 1600px;
+
+}
+thead{
+    background-color: rgb(86, 176, 245);
+    
 }
